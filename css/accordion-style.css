@@ -1,0 +1,62 @@
+/*
+.container {
+    width: 80%;
+    margin:  50px auto;
+}
+
+.accordion {
+    width: 100%;
+    border: none;
+    background-color: #eee;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+.accordion:after {
+    content: '\002B';
+    float: right;
+}*/
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.accordion {
+    width: 100%;
+    border: 0;
+    text-align: left;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 15px;
+    cursor: pointer;
+    outline: 0;
+    
+
+}
+
+.accordion:hover {
+    background-color: #777;
+}
+
+.accordion:after {
+    content: '\002B';
+    float: right;
+    font-weight: bold;
+}
+
+.active:after {
+    content: '-';
+}
+
+
+.desc {
+    padding: 0 15px;
+    display: none;
+    text-align: center;
+}
+
+
+
+
+
